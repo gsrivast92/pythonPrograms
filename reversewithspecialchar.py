@@ -1,6 +1,3 @@
-str = 'ab!@cde'
-
-
 #Function to reverse a string
 def reverse(s):
 	l1 = len(s)//2
@@ -26,39 +23,30 @@ def isAlphabet(s):
 			isAlphabet.append(i)
 	return isAlphabet
 
+#Function to convert List to String
+def toStr(lst):
+		str = ''.join(lst)
+		return str
+	
 
 #Function to convert to Special Character#			
-def splchar(s):
+def splcharReverse(s):
 	alpha=isAlphabet(s)
 	rev = reverse(alpha)
-	t = toList(str)
+	temp = toList(str)
 	k=0
-	for i in range(len(t)):
-		if t[i].isalpha():
-			t[i] = rev[k]
+	for i in range(len(temp)):
+		if temp[i].isalpha():
+			temp[i] = rev[k]
 			k +=1
-	return t
-	
-	
-k = splchar(str)
-print(k)
-	
-	
+	tempStr = toStr(temp)
+	return tempStr
 	
 
-	
-	
-	
-	
-	
-	
-	#if str[i].isalpha():
-	#	str1= str.replace(str[i],tmp[k])
-	#	k +=1
-	#str = str[i:]
-#print(str1)
-	
-	
-
-
-			
+    
+    
+# Execution code 
+str = "a!!!b.c.d,e'f,ghi"
+print("Input string: " + str) 
+revLst = splcharReverse(str) 
+print("Output string: " + revLst)
