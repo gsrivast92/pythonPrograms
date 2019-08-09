@@ -4,7 +4,12 @@ def reverse(s):
 	else:
 		return reverse(s[1:]) + s[0]
 
-s='python'		
+		
+
+
+s = input("Input a String :")		
+		
+		
 		
 p = reverse(s)
 print(p)
