@@ -1,0 +1,81 @@
+Function- sorted()
+=================
+
+
+We have a function called sorted which will help to sort a list or any other data structres.
+
+Scenario -1 
+
+a = [1,4,8, 2, 5]
+sorted(a)
+a = [1,2,4,5,8] this is basically ascending order sorting.
+
+
+Scenario -2
+
+strs = ['aa', 'BB', 'zz', 'CC']
+
+sorted(strs)
+
+
+['BB', 'CC', 'aa', 'zz'] (case sensitive)
+
+Scenario-3 
+
+sorted(strs, reverse=True)- Here we see that we can use other arguments in the sorted function.
+
+['zz', 'aa', 'CC', 'BB']
+
+Scenario 4
+
+
+strs = ['ccc', 'aaaa', 'd', 'bb'] This is another list but every element in this list has different length of strings.
+
+['aaaa', 'bb', 'ccc', 'd']
+
+
+sorted(strs)
+
+sorted(strs, key=len)
+
+['d', 'bb', 'ccc', 'aaaa']
+
+Scenario 5
+
+We can also use to make sorted as for the lower case.
+
+
+
+strs = ['ccc', 'aaaa', 'd', 'bb']
+
+
+sorted(strs, keys=str.lower)
+
+output = ['aa', 'BB', 'CC', 'zz']
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

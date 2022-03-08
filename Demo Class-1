@@ -1,0 +1,121 @@
+
+
+Customize
+=========
+1. Python Associate Level Certification Planning 
+
+2. Regular expression  
+
+3. File Handler
+
+4. Decorators
+
+5. Iterators
+
+6. Map and Set
+
+7. Using Python Databases 
+
+8. Sorting Algo, Time and Space Compelxity  
+============================================================
+Strings
+
+10 Problems 
+============================================================
+
+Duration: --- 
+
+Fees :--  150 to  200$ 
+
+180$ 
+
+
+Timings
+=======
+
+7:30 to 9 or something .... Twice in a week ... Weekdays/Weeends. Alternate ... 
+
+
+
+
+
+
+
+
+
+
+
+Algo:
+
+Problem statement: There is a list in which we need to find number of times each elment came
+
+
+
+1 = 2
+
+2 = 3
+
+3 = 4
+
+0 = 1
+
+
+1. we need to go to element by element
+
+2. we need to do some thing which will help to find out number of unique elements
+
+3. we will go and check each element by doing some comparison and see how many times coming
+
+4. we will verify and increase our count once we get the same number
+
+5. then we can create dic in which our key == element name and value === number of occurance.
+
+===========================================================================================================
+
+solving the problem === why??
+
+
+1. you are not able to arrange the python syntax correctly.
+
+
+matrix 
+
+
+
+we will have to use two for loops solution done .... list 
+
+k = [[1,2,3], [1,2,3,], [1,2,3]]
+
+
+
+
+for i in temp:
+	for j in i 
+		print k[i][j]
+			put logic take the value one by one do comparison put it in different bucket = dictonary 
+			
+			
+========================================
+		
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -20,7 +20,7 @@ def binarysearch(A,key, low,high):
 A = [9,10,20,23,25]
 key = 27
 low = 0
-high = 4
+high = 5
 
 found = binarysearch(A,key,low, high)
 
